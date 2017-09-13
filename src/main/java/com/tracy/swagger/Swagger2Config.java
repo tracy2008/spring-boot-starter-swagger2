@@ -42,7 +42,7 @@ public class Swagger2Config {
 		return new ApiInfoBuilder()
 				.title(properties.getTitle())
 				.description(properties.getDescription())
-				.termsOfServiceUrl("http://localhost:8080/spring-boot-starter-swagger2")
+				.termsOfServiceUrl("https://github.com/tracy2008/spring-boot-starter-swagger2")
 				.contact(new Contact("", "", "289602252@qq.com"))
 				.version(properties.getVersion())
 				.build();
