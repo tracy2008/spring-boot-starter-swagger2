@@ -2,6 +2,11 @@ package com.tracy.swagger;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * 属性配置文件
+ * @author tracy
+ * 2017年9月13日
+ */
 @ConfigurationProperties(prefix = "swagger2")
 public class Swagger2Properties {
 
